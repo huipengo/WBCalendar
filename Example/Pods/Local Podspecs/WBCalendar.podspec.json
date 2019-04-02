@@ -1,0 +1,23 @@
+{
+  "name": "WBCalendar",
+  "version": "0.1.0",
+  "summary": "A short description of WBCalendar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huipengo/WBCalendar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "penghui": "penghui_only@163.com"
+  },
+  "source": {
+    "git": "https://github.com/huipengo/WBCalendar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WBCalendar/Classes/ABCalendarPicker/*.{h,m}",
+  "resources": "WBCalendar/Classes/ABCalendarPicker/ABCalendarPicker.bundle"
+}

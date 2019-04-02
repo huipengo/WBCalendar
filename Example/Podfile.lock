@@ -1,0 +1,16 @@
+PODS:
+  - WBCalendar (0.1.0)
+
+DEPENDENCIES:
+  - WBCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  WBCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WBCalendar: 20a904fb4ed8196be1c557aa6701633e873b4dc6
+
+PODFILE CHECKSUM: 622d15354a3ac9eb0664a9baf44037df23d513a9
+
+COCOAPODS: 1.6.0

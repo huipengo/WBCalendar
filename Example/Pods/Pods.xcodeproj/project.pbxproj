@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A45BB9951A68A94E23DC31A5E748FA /* UIMyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F498E5CD4A32DD00F0328B66F5FE1B /* UIMyButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09C52676C1A337D230C9D63FD88B0C5E /* ABCalendarPickerDateProviderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = FD42E507F41305DF343D14FB8CAEB055 /* ABCalendarPickerDateProviderProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C2E61352A6EA7F1FE3264C524DC7A59 /* ABCalendarPickerDefaultDaysProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 8764BF27D26EAFBA69DA70F9D10C4B63 /* ABCalendarPickerDefaultDaysProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12C7A8F7185A46C0C3E58959591E8475 /* WBCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F13D5B67715CAC73CBCB406EECB009A7 /* WBCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C0B8404111BD20AD80796D749A3B8E9 /* ABCalendarPickerDataSourceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C682D4B09258FDDB03F7E6AA7899813A /* ABCalendarPickerDataSourceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2242C463675B5FE11C21D8109D44D0AC /* ABCalendarPickerDefaultStyleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CE0C05881B6CFEED9329E888C62F23 /* ABCalendarPickerDefaultStyleProvider.m */; };
+		27A0641AD1446DF16B7C5BE3E6099BB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		2850076E6012D5ABE2DAB6AFDD65D90A /* ABViewPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9326978AF88D1E9BCB9B1BD61F4711 /* ABViewPool.m */; };
+		32492FB63E65715D4FED8312E8840330 /* ABCalendarPickerDefaultMonthsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 886ADB7FB75BAE5A8B01DE6C968E33CC /* ABCalendarPickerDefaultMonthsProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39A9FB04C64E304249A04B1255889C6C /* Pods-WBCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50212B34B3613756159AE81FBBF5616D /* Pods-WBCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		471FCBB7DC02F9DFB3C95937033B2E8C /* ABCalendarPickerDefaultMonthsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8D2A158B17AABE41885AA34BA1FF70 /* ABCalendarPickerDefaultMonthsProvider.m */; };
+		476713AC5AC2D10ACB57E8FCB2CFC18C /* ABCalendarPickerDefaultSeasonedMonthsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AABC76A9EBBAD39E46109B15EE3F83E /* ABCalendarPickerDefaultSeasonedMonthsProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FB0F000252AC1A48E347C0119D9B6CD /* ABCalendarPickerDefaultErasProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1A9435FFDAEAD36D1AAFB89804F181 /* ABCalendarPickerDefaultErasProvider.m */; };
+		5D45BC6F86A66B5A073243E1D0AADF72 /* ABCalendarPickerDefaultWeekdaysProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF4FDACD4849FB8487E5FB446F5D143 /* ABCalendarPickerDefaultWeekdaysProvider.m */; };
+		6551BDBD5F9BA45FABDAA2777F93F20F /* ABCalendarPickerDefaultErasProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9541B76195744329FA418D943DB4E2DC /* ABCalendarPickerDefaultErasProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688B30E0BEECA3450B0A193D5D459AA4 /* Pods-WBCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 517BBC2C4E963FD4FC94C3AC63B9969F /* Pods-WBCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		789DA1805F2E731E91CE6F87BE962D74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8966614EE8890F5159C00C2EB0E88FAE /* ABCalendarPickerDefaultStyleProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CCD4DDA284F86A2209BCFFCF49564D /* ABCalendarPickerDefaultStyleProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89FD16D932640B7205F5E0A8A6701DD6 /* ABCalendarPickerDefaultSeasonedMonthsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7545CBD638F8E3963CE5A9A7AEF6B97F /* ABCalendarPickerDefaultSeasonedMonthsProvider.m */; };
+		8E453EC04A90F24350AEA8470662630D /* ABCalendarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D84211349CE138A01A82695150CBD9 /* ABCalendarPicker.m */; };
+		96CC29AE1EBD6142CED4DA4CBFBCFC1C /* ABCalendarPickerDefaultYearsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C32EE1DD22679C08F34BAB06A38BC4 /* ABCalendarPickerDefaultYearsProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		972B46F57C0BACFD5D5E9345409D6556 /* ABCalendarPickerDelegateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 251140EED229239A5E9A2E070865E055 /* ABCalendarPickerDelegateProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE641AB897C064C47E561662F5605895 /* ABCalendarPickerDefaultWeekdaysProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D33F00BAF684F540ACF9CA5D092D4A /* ABCalendarPickerDefaultWeekdaysProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5E2871B30331BE325EFC04281D8605F /* ABViewPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F1BEECD4D65AFF20CA5E29EA68290C /* ABViewPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9D120E8B9604FFF073B8BF3A95A8328 /* ABCalendarPickerDefaultYearsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9604832861BAF7D430F2D45B2B589790 /* ABCalendarPickerDefaultYearsProvider.m */; };
+		C9F7632B85827C7B63107888099B3998 /* Pods-WBCalendar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCD29F0301FCCA3E85542133EC2DEFD /* Pods-WBCalendar_Example-dummy.m */; };
+		D49DEAF9F33CDD17714B1841999AE39A /* UIMyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E1CD33D9B917B90086AF30E129A16D /* UIMyButton.m */; };
+		D6BAF1D4180FF03925FD4160C46E0FB8 /* ABCalendarPickerStyleProviderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B008A946A68201B6A1D428D8390D00BF /* ABCalendarPickerStyleProviderProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBE38A92EFFA47AA432EC7FF150C4EB8 /* ABCalendarPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3772666766D5655A29095127258715 /* ABCalendarPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD6745EB863CEC470AF165DCB1BFD9FE /* Pods-WBCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F362DE00706068B49AAD43E0D851EAE5 /* Pods-WBCalendar_Tests-dummy.m */; };
+		DDA5B679BCC22F1155FA0430AD92D5BA /* ABCalendarPickerDefaultTripleWeekdaysProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E7C0A980BD0B26B121D6F5EBFD0D4 /* ABCalendarPickerDefaultTripleWeekdaysProvider.m */; };
+		E50C2A381F60B6548BFE9B486EB4A06E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		E93AA9127D40412FC5C7872F380C16F8 /* ABCalendarPickerDefaultDaysProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 508B0BA944981C798A84BCD77851D6CD /* ABCalendarPickerDefaultDaysProvider.m */; };
+		EE5860D84537CF11DA3A1032423EB194 /* ABCalendarPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C408B6D3A38824B6664409F4956F39F /* ABCalendarPicker.bundle */; };
+		F18F5611780C67861B3EB6063B6CEC15 /* ABCalendarPickerDefaultTripleWeekdaysProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = C6459E335C77B6800B1C37533F9A45FA /* ABCalendarPickerDefaultTripleWeekdaysProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F424E85D17FA9678904B2943674C61E8 /* WBCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F56B778D93459994D0A19F95D7DA2C /* WBCalendar-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0053C59D8E007923AF0607C2ADD5B727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5EFEDEB2E20A16B9147852FAE66070B;
+			remoteInfo = WBCalendar;
+		};
+		9409772D3DAD238AE2CAACDA888958BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B4FFB19B678F3147338B5F9263956A;
+			remoteInfo = "Pods-WBCalendar_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03607D0CB95FF9826C2C94510FEE4FC5 /* Pods-WBCalendar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBCalendar_Example-Info.plist"; sourceTree = "<group>"; };
+		09E1CD33D9B917B90086AF30E129A16D /* UIMyButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIMyButton.m; path = WBCalendar/Classes/ABCalendarPicker/UIMyButton.m; sourceTree = "<group>"; };
+		13CCD4DDA284F86A2209BCFFCF49564D /* ABCalendarPickerDefaultStyleProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultStyleProvider.h; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultStyleProvider.h; sourceTree = "<group>"; };
+		2084A0619DD7052D6421DB1AB2DBFD26 /* WBCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WBCalendar-Info.plist"; sourceTree = "<group>"; };
+		251140EED229239A5E9A2E070865E055 /* ABCalendarPickerDelegateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDelegateProtocol.h; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDelegateProtocol.h; sourceTree = "<group>"; };
+		28358CAB8F123D2BDD27316D2A2C0FC3 /* Pods-WBCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WBCalendar_Example.modulemap"; sourceTree = "<group>"; };
+		2AABC76A9EBBAD39E46109B15EE3F83E /* ABCalendarPickerDefaultSeasonedMonthsProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultSeasonedMonthsProvider.h; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultSeasonedMonthsProvider.h; sourceTree = "<group>"; };
+		2C408B6D3A38824B6664409F4956F39F /* ABCalendarPicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ABCalendarPicker.bundle; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPicker.bundle; sourceTree = "<group>"; };
+		2D5E7C0A980BD0B26B121D6F5EBFD0D4 /* ABCalendarPickerDefaultTripleWeekdaysProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultTripleWeekdaysProvider.m; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultTripleWeekdaysProvider.m; sourceTree = "<group>"; };
+		3F63CAD90B77B8F8D465062BB73659FD /* Pods-WBCalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WBCalendar_Tests.modulemap"; sourceTree = "<group>"; };
+		41DFD2E8D45C4589251807BD692C6708 /* Pods-WBCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44378A4C68D7A39E1186314AC9A9B90E /* Pods-WBCalendar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WBCalendar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		50212B34B3613756159AE81FBBF5616D /* Pods-WBCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WBCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		508B0BA944981C798A84BCD77851D6CD /* ABCalendarPickerDefaultDaysProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultDaysProvider.m; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultDaysProvider.m; sourceTree = "<group>"; };
+		517BBC2C4E963FD4FC94C3AC63B9969F /* Pods-WBCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WBCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
+		55E9D57F3E3757D855E52691F71439F5 /* WBCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBCalendar-prefix.pch"; sourceTree = "<group>"; };
+		56A9B3FB907148A79216D30573BB5B63 /* WBCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WBCalendar.modulemap; sourceTree = "<group>"; };
+		5E8D2A158B17AABE41885AA34BA1FF70 /* ABCalendarPickerDefaultMonthsProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultMonthsProvider.m; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultMonthsProvider.m; sourceTree = "<group>"; };
+		6E2073ADAF5614E4B619AF0585AB035D /* Pods-WBCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F9326978AF88D1E9BCB9B1BD61F4711 /* ABViewPool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABViewPool.m; path = WBCalendar/Classes/ABCalendarPicker/ABViewPool.m; sourceTree = "<group>"; };
+		7267BC0CAAE853259611A08E97958F11 /* WBCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WBCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7545CBD638F8E3963CE5A9A7AEF6B97F /* ABCalendarPickerDefaultSeasonedMonthsProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultSeasonedMonthsProvider.m; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultSeasonedMonthsProvider.m; sourceTree = "<group>"; };
+		76D33F00BAF684F540ACF9CA5D092D4A /* ABCalendarPickerDefaultWeekdaysProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultWeekdaysProvider.h; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultWeekdaysProvider.h; sourceTree = "<group>"; };
+		78CE0C05881B6CFEED9329E888C62F23 /* ABCalendarPickerDefaultStyleProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultStyleProvider.m; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultStyleProvider.m; sourceTree = "<group>"; };
+		834C0374745BCA2E0793C4B3D8B2B90D /* WBCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBCalendar.xcconfig; sourceTree = "<group>"; };
+		86F1BEECD4D65AFF20CA5E29EA68290C /* ABViewPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABViewPool.h; path = WBCalendar/Classes/ABCalendarPicker/ABViewPool.h; sourceTree = "<group>"; };
+		8764BF27D26EAFBA69DA70F9D10C4B63 /* ABCalendarPickerDefaultDaysProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultDaysProvider.h; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultDaysProvider.h; sourceTree = "<group>"; };
+		886ADB7FB75BAE5A8B01DE6C968E33CC /* ABCalendarPickerDefaultMonthsProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultMonthsProvider.h; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultMonthsProvider.h; sourceTree = "<group>"; };
+		9296FCDFD94E9931440F4FC3EE1C4A24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9541B76195744329FA418D943DB4E2DC /* ABCalendarPickerDefaultErasProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultErasProvider.h; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultErasProvider.h; sourceTree = "<group>"; };
+		9604832861BAF7D430F2D45B2B589790 /* ABCalendarPickerDefaultYearsProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultYearsProvider.m; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultYearsProvider.m; sourceTree = "<group>"; };
+		97C5C01EC94F3EF5F0B0590DDABE513E /* Pods-WBCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		995EC330A75CE2B7E54AFBCDB49D9855 /* Pods-WBCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9C3772666766D5655A29095127258715 /* ABCalendarPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPicker.h; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPicker.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A758113D168D2678FFB88DF67625D385 /* Pods_WBCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA87943F475549A85EB7270178CBDBDE /* Pods-WBCalendar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBCalendar_Tests-Info.plist"; sourceTree = "<group>"; };
+		B008A946A68201B6A1D428D8390D00BF /* ABCalendarPickerStyleProviderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerStyleProviderProtocol.h; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerStyleProviderProtocol.h; sourceTree = "<group>"; };
+		C1C32EE1DD22679C08F34BAB06A38BC4 /* ABCalendarPickerDefaultYearsProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultYearsProvider.h; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultYearsProvider.h; sourceTree = "<group>"; };
+		C6459E335C77B6800B1C37533F9A45FA /* ABCalendarPickerDefaultTripleWeekdaysProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultTripleWeekdaysProvider.h; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultTripleWeekdaysProvider.h; sourceTree = "<group>"; };
+		C682D4B09258FDDB03F7E6AA7899813A /* ABCalendarPickerDataSourceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDataSourceProtocol.h; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDataSourceProtocol.h; sourceTree = "<group>"; };
+		C698713F3F9F694E35CEAB3693662FEF /* Pods_WBCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D15951EA293E2BF8EBA410CCEBC23040 /* Pods-WBCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3669F34D75D7D053C40294DE867854B /* Pods-WBCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3AC34249E026005C5A7AF8A5B150AB4 /* Pods-WBCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D917F937C6C78994C85EC860C5DA9D03 /* Pods-WBCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DA6715D919628C703FD5FDE997CC8BFF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E02244ED99B0D924651D9D807E68C3E6 /* WBCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WBCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		E1F498E5CD4A32DD00F0328B66F5FE1B /* UIMyButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIMyButton.h; path = WBCalendar/Classes/ABCalendarPicker/UIMyButton.h; sourceTree = "<group>"; };
+		E8D84211349CE138A01A82695150CBD9 /* ABCalendarPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPicker.m; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPicker.m; sourceTree = "<group>"; };
+		EE1A9435FFDAEAD36D1AAFB89804F181 /* ABCalendarPickerDefaultErasProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultErasProvider.m; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultErasProvider.m; sourceTree = "<group>"; };
+		F13D5B67715CAC73CBCB406EECB009A7 /* WBCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBCalendar-umbrella.h"; sourceTree = "<group>"; };
+		F362DE00706068B49AAD43E0D851EAE5 /* Pods-WBCalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBCalendar_Tests-dummy.m"; sourceTree = "<group>"; };
+		F8F56B778D93459994D0A19F95D7DA2C /* WBCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBCalendar-dummy.m"; sourceTree = "<group>"; };
+		FD42E507F41305DF343D14FB8CAEB055 /* ABCalendarPickerDateProviderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDateProviderProtocol.h; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDateProviderProtocol.h; sourceTree = "<group>"; };
+		FFCD29F0301FCCA3E85542133EC2DEFD /* Pods-WBCalendar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBCalendar_Example-dummy.m"; sourceTree = "<group>"; };
+		FFF4FDACD4849FB8487E5FB446F5D143 /* ABCalendarPickerDefaultWeekdaysProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultWeekdaysProvider.m; path = WBCalendar/Classes/ABCalendarPicker/ABCalendarPickerDefaultWeekdaysProvider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A7751A90478E95B5EC4B02C6B570A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A0641AD1446DF16B7C5BE3E6099BB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FBF070A821848A89E6FC45AA3F9EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50C2A381F60B6548BFE9B486EB4A06E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF3230F38D04682481F5099E6E04269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789DA1805F2E731E91CE6F87BE962D74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		154E218FE414C55D224B686D385DFE75 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D4BEA5D7BCC8D2F897933A9B6414826 /* WBCalendar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		18DFCB128A5F080C12CDEE5CB3878C12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C408B6D3A38824B6664409F4956F39F /* ABCalendarPicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29C81CC3C637FCF9EDBD69E57002598D /* Pods-WBCalendar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F63CAD90B77B8F8D465062BB73659FD /* Pods-WBCalendar_Tests.modulemap */,
+				41DFD2E8D45C4589251807BD692C6708 /* Pods-WBCalendar_Tests-acknowledgements.markdown */,
+				D15951EA293E2BF8EBA410CCEBC23040 /* Pods-WBCalendar_Tests-acknowledgements.plist */,
+				F362DE00706068B49AAD43E0D851EAE5 /* Pods-WBCalendar_Tests-dummy.m */,
+				AA87943F475549A85EB7270178CBDBDE /* Pods-WBCalendar_Tests-Info.plist */,
+				50212B34B3613756159AE81FBBF5616D /* Pods-WBCalendar_Tests-umbrella.h */,
+				D3AC34249E026005C5A7AF8A5B150AB4 /* Pods-WBCalendar_Tests.debug.xcconfig */,
+				97C5C01EC94F3EF5F0B0590DDABE513E /* Pods-WBCalendar_Tests.release.xcconfig */,
+			);
+			name = "Pods-WBCalendar_Tests";
+			path = "Target Support Files/Pods-WBCalendar_Tests";
+			sourceTree = "<group>";
+		};
+		5747664ECB866AF10C4CF50CFF3D438C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56A9B3FB907148A79216D30573BB5B63 /* WBCalendar.modulemap */,
+				834C0374745BCA2E0793C4B3D8B2B90D /* WBCalendar.xcconfig */,
+				F8F56B778D93459994D0A19F95D7DA2C /* WBCalendar-dummy.m */,
+				2084A0619DD7052D6421DB1AB2DBFD26 /* WBCalendar-Info.plist */,
+				55E9D57F3E3757D855E52691F71439F5 /* WBCalendar-prefix.pch */,
+				F13D5B67715CAC73CBCB406EECB009A7 /* WBCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WBCalendar";
+			sourceTree = "<group>";
+		};
+		7007CA6CEEF85A9532FA1FEB42C923D3 /* Pods-WBCalendar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				28358CAB8F123D2BDD27316D2A2C0FC3 /* Pods-WBCalendar_Example.modulemap */,
+				D3669F34D75D7D053C40294DE867854B /* Pods-WBCalendar_Example-acknowledgements.markdown */,
+				6E2073ADAF5614E4B619AF0585AB035D /* Pods-WBCalendar_Example-acknowledgements.plist */,
+				FFCD29F0301FCCA3E85542133EC2DEFD /* Pods-WBCalendar_Example-dummy.m */,
+				44378A4C68D7A39E1186314AC9A9B90E /* Pods-WBCalendar_Example-frameworks.sh */,
+				03607D0CB95FF9826C2C94510FEE4FC5 /* Pods-WBCalendar_Example-Info.plist */,
+				517BBC2C4E963FD4FC94C3AC63B9969F /* Pods-WBCalendar_Example-umbrella.h */,
+				995EC330A75CE2B7E54AFBCDB49D9855 /* Pods-WBCalendar_Example.debug.xcconfig */,
+				D917F937C6C78994C85EC860C5DA9D03 /* Pods-WBCalendar_Example.release.xcconfig */,
+			);
+			name = "Pods-WBCalendar_Example";
+			path = "Target Support Files/Pods-WBCalendar_Example";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9D4BEA5D7BCC8D2F897933A9B6414826 /* WBCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				9C3772666766D5655A29095127258715 /* ABCalendarPicker.h */,
+				E8D84211349CE138A01A82695150CBD9 /* ABCalendarPicker.m */,
+				C682D4B09258FDDB03F7E6AA7899813A /* ABCalendarPickerDataSourceProtocol.h */,
+				FD42E507F41305DF343D14FB8CAEB055 /* ABCalendarPickerDateProviderProtocol.h */,
+				8764BF27D26EAFBA69DA70F9D10C4B63 /* ABCalendarPickerDefaultDaysProvider.h */,
+				508B0BA944981C798A84BCD77851D6CD /* ABCalendarPickerDefaultDaysProvider.m */,
+				9541B76195744329FA418D943DB4E2DC /* ABCalendarPickerDefaultErasProvider.h */,
+				EE1A9435FFDAEAD36D1AAFB89804F181 /* ABCalendarPickerDefaultErasProvider.m */,
+				886ADB7FB75BAE5A8B01DE6C968E33CC /* ABCalendarPickerDefaultMonthsProvider.h */,
+				5E8D2A158B17AABE41885AA34BA1FF70 /* ABCalendarPickerDefaultMonthsProvider.m */,
+				2AABC76A9EBBAD39E46109B15EE3F83E /* ABCalendarPickerDefaultSeasonedMonthsProvider.h */,
+				7545CBD638F8E3963CE5A9A7AEF6B97F /* ABCalendarPickerDefaultSeasonedMonthsProvider.m */,
+				13CCD4DDA284F86A2209BCFFCF49564D /* ABCalendarPickerDefaultStyleProvider.h */,
+				78CE0C05881B6CFEED9329E888C62F23 /* ABCalendarPickerDefaultStyleProvider.m */,
+				C6459E335C77B6800B1C37533F9A45FA /* ABCalendarPickerDefaultTripleWeekdaysProvider.h */,
+				2D5E7C0A980BD0B26B121D6F5EBFD0D4 /* ABCalendarPickerDefaultTripleWeekdaysProvider.m */,
+				76D33F00BAF684F540ACF9CA5D092D4A /* ABCalendarPickerDefaultWeekdaysProvider.h */,
+				FFF4FDACD4849FB8487E5FB446F5D143 /* ABCalendarPickerDefaultWeekdaysProvider.m */,
+				C1C32EE1DD22679C08F34BAB06A38BC4 /* ABCalendarPickerDefaultYearsProvider.h */,
+				9604832861BAF7D430F2D45B2B589790 /* ABCalendarPickerDefaultYearsProvider.m */,
+				251140EED229239A5E9A2E070865E055 /* ABCalendarPickerDelegateProtocol.h */,
+				B008A946A68201B6A1D428D8390D00BF /* ABCalendarPickerStyleProviderProtocol.h */,
+				86F1BEECD4D65AFF20CA5E29EA68290C /* ABViewPool.h */,
+				6F9326978AF88D1E9BCB9B1BD61F4711 /* ABViewPool.m */,
+				E1F498E5CD4A32DD00F0328B66F5FE1B /* UIMyButton.h */,
+				09E1CD33D9B917B90086AF30E129A16D /* UIMyButton.m */,
+				EE6415BDC9C67C4D034F1E61CCDE3202 /* Pod */,
+				18DFCB128A5F080C12CDEE5CB3878C12 /* Resources */,
+				5747664ECB866AF10C4CF50CFF3D438C /* Support Files */,
+			);
+			name = WBCalendar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B8565C4785F842CBADC13B28115D3AC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C698713F3F9F694E35CEAB3693662FEF /* Pods_WBCalendar_Example.framework */,
+				A758113D168D2678FFB88DF67625D385 /* Pods_WBCalendar_Tests.framework */,
+				7267BC0CAAE853259611A08E97958F11 /* WBCalendar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				154E218FE414C55D224B686D385DFE75 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B8565C4785F842CBADC13B28115D3AC8 /* Products */,
+				E7C92FCF14278A7C98528C0EE9C6B3E0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7C92FCF14278A7C98528C0EE9C6B3E0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7007CA6CEEF85A9532FA1FEB42C923D3 /* Pods-WBCalendar_Example */,
+				29C81CC3C637FCF9EDBD69E57002598D /* Pods-WBCalendar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EE6415BDC9C67C4D034F1E61CCDE3202 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DA6715D919628C703FD5FDE997CC8BFF /* LICENSE */,
+				9296FCDFD94E9931440F4FC3EE1C4A24 /* README.md */,
+				E02244ED99B0D924651D9D807E68C3E6 /* WBCalendar.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4CBBFEF42C022510CCDDE3DC441152D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A9FB04C64E304249A04B1255889C6C /* Pods-WBCalendar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617D552EF2A37F988E52522877C6C439 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688B30E0BEECA3450B0A193D5D459AA4 /* Pods-WBCalendar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF1FD4CA5B6E5EAA4A643A8BC562476 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE38A92EFFA47AA432EC7FF150C4EB8 /* ABCalendarPicker.h in Headers */,
+				1C0B8404111BD20AD80796D749A3B8E9 /* ABCalendarPickerDataSourceProtocol.h in Headers */,
+				09C52676C1A337D230C9D63FD88B0C5E /* ABCalendarPickerDateProviderProtocol.h in Headers */,
+				0C2E61352A6EA7F1FE3264C524DC7A59 /* ABCalendarPickerDefaultDaysProvider.h in Headers */,
+				6551BDBD5F9BA45FABDAA2777F93F20F /* ABCalendarPickerDefaultErasProvider.h in Headers */,
+				32492FB63E65715D4FED8312E8840330 /* ABCalendarPickerDefaultMonthsProvider.h in Headers */,
+				476713AC5AC2D10ACB57E8FCB2CFC18C /* ABCalendarPickerDefaultSeasonedMonthsProvider.h in Headers */,
+				8966614EE8890F5159C00C2EB0E88FAE /* ABCalendarPickerDefaultStyleProvider.h in Headers */,
+				F18F5611780C67861B3EB6063B6CEC15 /* ABCalendarPickerDefaultTripleWeekdaysProvider.h in Headers */,
+				AE641AB897C064C47E561662F5605895 /* ABCalendarPickerDefaultWeekdaysProvider.h in Headers */,
+				96CC29AE1EBD6142CED4DA4CBFBCFC1C /* ABCalendarPickerDefaultYearsProvider.h in Headers */,
+				972B46F57C0BACFD5D5E9345409D6556 /* ABCalendarPickerDelegateProtocol.h in Headers */,
+				D6BAF1D4180FF03925FD4160C46E0FB8 /* ABCalendarPickerStyleProviderProtocol.h in Headers */,
+				C5E2871B30331BE325EFC04281D8605F /* ABViewPool.h in Headers */,
+				00A45BB9951A68A94E23DC31A5E748FA /* UIMyButton.h in Headers */,
+				12C7A8F7185A46C0C3E58959591E8475 /* WBCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B42DE0681C7585388D5CEFC5AA116C0 /* Pods-WBCalendar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B56E9370269662E6B3851FC5715C23 /* Build configuration list for PBXNativeTarget "Pods-WBCalendar_Tests" */;
+			buildPhases = (
+				4CBBFEF42C022510CCDDE3DC441152D3 /* Headers */,
+				C4033DFF50219463EF0727C882AEF0D2 /* Sources */,
+				7BF3230F38D04682481F5099E6E04269 /* Frameworks */,
+				F0C7BC2CF257C9059C6C857582D668AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				142AD18D4A9C67D500404F8E52A13EA1 /* PBXTargetDependency */,
+			);
+			name = "Pods-WBCalendar_Tests";
+			productName = "Pods-WBCalendar_Tests";
+			productReference = A758113D168D2678FFB88DF67625D385 /* Pods_WBCalendar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		52B4FFB19B678F3147338B5F9263956A /* Pods-WBCalendar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D907919032C5B5F03D5F2D639DE04A6 /* Build configuration list for PBXNativeTarget "Pods-WBCalendar_Example" */;
+			buildPhases = (
+				617D552EF2A37F988E52522877C6C439 /* Headers */,
+				EA380F83CE20C531FB13DCEE9CB705A8 /* Sources */,
+				71FBF070A821848A89E6FC45AA3F9EED /* Frameworks */,
+				729EBC3202B5073F19D0CD8415CD2DF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EE647CE96ABA86BC9146B6A8942290C /* PBXTargetDependency */,
+			);
+			name = "Pods-WBCalendar_Example";
+			productName = "Pods-WBCalendar_Example";
+			productReference = C698713F3F9F694E35CEAB3693662FEF /* Pods_WBCalendar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5EFEDEB2E20A16B9147852FAE66070B /* WBCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79175F2EAB1499F95F431B7B8953CA9 /* Build configuration list for PBXNativeTarget "WBCalendar" */;
+			buildPhases = (
+				7AF1FD4CA5B6E5EAA4A643A8BC562476 /* Headers */,
+				AB7D8222930888CA407C6100726D3A94 /* Sources */,
+				4A7751A90478E95B5EC4B02C6B570A1F /* Frameworks */,
+				9C382074966374307BA37CA557386055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBCalendar;
+			productName = WBCalendar;
+			productReference = 7267BC0CAAE853259611A08E97958F11 /* WBCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B8565C4785F842CBADC13B28115D3AC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52B4FFB19B678F3147338B5F9263956A /* Pods-WBCalendar_Example */,
+				3B42DE0681C7585388D5CEFC5AA116C0 /* Pods-WBCalendar_Tests */,
+				A5EFEDEB2E20A16B9147852FAE66070B /* WBCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		729EBC3202B5073F19D0CD8415CD2DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C382074966374307BA37CA557386055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5860D84537CF11DA3A1032423EB194 /* ABCalendarPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C7BC2CF257C9059C6C857582D668AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB7D8222930888CA407C6100726D3A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E453EC04A90F24350AEA8470662630D /* ABCalendarPicker.m in Sources */,
+				E93AA9127D40412FC5C7872F380C16F8 /* ABCalendarPickerDefaultDaysProvider.m in Sources */,
+				4FB0F000252AC1A48E347C0119D9B6CD /* ABCalendarPickerDefaultErasProvider.m in Sources */,
+				471FCBB7DC02F9DFB3C95937033B2E8C /* ABCalendarPickerDefaultMonthsProvider.m in Sources */,
+				89FD16D932640B7205F5E0A8A6701DD6 /* ABCalendarPickerDefaultSeasonedMonthsProvider.m in Sources */,
+				2242C463675B5FE11C21D8109D44D0AC /* ABCalendarPickerDefaultStyleProvider.m in Sources */,
+				DDA5B679BCC22F1155FA0430AD92D5BA /* ABCalendarPickerDefaultTripleWeekdaysProvider.m in Sources */,
+				5D45BC6F86A66B5A073243E1D0AADF72 /* ABCalendarPickerDefaultWeekdaysProvider.m in Sources */,
+				C9D120E8B9604FFF073B8BF3A95A8328 /* ABCalendarPickerDefaultYearsProvider.m in Sources */,
+				2850076E6012D5ABE2DAB6AFDD65D90A /* ABViewPool.m in Sources */,
+				D49DEAF9F33CDD17714B1841999AE39A /* UIMyButton.m in Sources */,
+				F424E85D17FA9678904B2943674C61E8 /* WBCalendar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4033DFF50219463EF0727C882AEF0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6745EB863CEC470AF165DCB1BFD9FE /* Pods-WBCalendar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA380F83CE20C531FB13DCEE9CB705A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F7632B85827C7B63107888099B3998 /* Pods-WBCalendar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		142AD18D4A9C67D500404F8E52A13EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WBCalendar_Example";
+			target = 52B4FFB19B678F3147338B5F9263956A /* Pods-WBCalendar_Example */;
+			targetProxy = 9409772D3DAD238AE2CAACDA888958BE /* PBXContainerItemProxy */;
+		};
+		3EE647CE96ABA86BC9146B6A8942290C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WBCalendar;
+			target = A5EFEDEB2E20A16B9147852FAE66070B /* WBCalendar */;
+			targetProxy = 0053C59D8E007923AF0607C2ADD5B727 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0137C60DFF7A13C5614ED91D46F170FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995EC330A75CE2B7E54AFBCDB49D9855 /* Pods-WBCalendar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBCalendar_Example/Pods-WBCalendar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBCalendar_Example/Pods-WBCalendar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		391AE1E1D4699B237591B46B9F27642C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 834C0374745BCA2E0793C4B3D8B2B90D /* WBCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBCalendar/WBCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBCalendar/WBCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBCalendar/WBCalendar.modulemap";
+				PRODUCT_MODULE_NAME = WBCalendar;
+				PRODUCT_NAME = WBCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		64A7CD91DC33C80543D6E37BD5592739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 834C0374745BCA2E0793C4B3D8B2B90D /* WBCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBCalendar/WBCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBCalendar/WBCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBCalendar/WBCalendar.modulemap";
+				PRODUCT_MODULE_NAME = WBCalendar;
+				PRODUCT_NAME = WBCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D7F34E3375969D22D869BAA0E421A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3AC34249E026005C5A7AF8A5B150AB4 /* Pods-WBCalendar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBCalendar_Tests/Pods-WBCalendar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBCalendar_Tests/Pods-WBCalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF5D1A529D7652AE50DB48FA64716769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D917F937C6C78994C85EC860C5DA9D03 /* Pods-WBCalendar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBCalendar_Example/Pods-WBCalendar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBCalendar_Example/Pods-WBCalendar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2CB1899D1CD7B5149EE48AB426A04EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C5C01EC94F3EF5F0B0590DDABE513E /* Pods-WBCalendar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBCalendar_Tests/Pods-WBCalendar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBCalendar_Tests/Pods-WBCalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D907919032C5B5F03D5F2D639DE04A6 /* Build configuration list for PBXNativeTarget "Pods-WBCalendar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0137C60DFF7A13C5614ED91D46F170FB /* Debug */,
+				AF5D1A529D7652AE50DB48FA64716769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B56E9370269662E6B3851FC5715C23 /* Build configuration list for PBXNativeTarget "Pods-WBCalendar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7F34E3375969D22D869BAA0E421A2C /* Debug */,
+				D2CB1899D1CD7B5149EE48AB426A04EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79175F2EAB1499F95F431B7B8953CA9 /* Build configuration list for PBXNativeTarget "WBCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A7CD91DC33C80543D6E37BD5592739 /* Debug */,
+				391AE1E1D4699B237591B46B9F27642C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
